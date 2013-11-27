@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+  <head>
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="myCanvas" width="1000" height="1000"></canvas>
+    <script src="moving_object.js"></script>
+    <script src="asteroid.js"></script>
+    <script src="game.js"></script>
+    <script>
+      a = new Asteroids.Game(document.getElementById("myCanvas"))
+    </script>
+  </body>
+</html>
